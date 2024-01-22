@@ -22,7 +22,7 @@
     </style>
 </head>
 <body class="font-family">
-    <header class="container m-auto">
+    <header class="container m-auto lg:px-24 px-8">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -63,13 +63,42 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end gap-6 " >
-                <div class="sm:hidden"><i class="sm:hidden fa-solid fa-magnifying-glass"></i></div>
-                <a class="btn text-white">Get Ticket</a>
+            <div class="navbar-end gap-6 flex " >
+                <div class="sm:hidden hidden-xs"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div><a class="btn text-white">Get Ticket</a></div>
             </div>
-          </div>
+        </div>
+
+        <div class="container mx-auto">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full flex">
+                  <img src="/Images/1.png" class="w-full rounded-2xl" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-3/4 ">
+                    <div class=" h-full justify-items-end">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="bg-black text-white rounded-xl p-4 gap-2">
+                        <h1 class="font-extrabold">
+                            Meet all the heroes from the field
+                        </h1>
+                        <p class="font-medium text-opacity-5">
+                            Hockey is a fast and exhilarating team sport played on ice.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        
     </header>
     <main>
+        <section class=" container mx-auto">
+            <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+        </section>
 
     </main>
     <footer>
