@@ -10,15 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    
+    <script src="https://kit.fontawesome.com/e2d5e9140c.js" crossorigin="anonymous"></script>
+
     <style>
         .font-family {
             font-family: 'Manrope', sans-serif;
         }
+        .btn {
+            background-color: #FF4240 ;
+        }
     </style>
 </head>
 <body class="font-family">
-    <header>
+    <header class="container m-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -59,8 +63,9 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn">Get Ticket</a>
+            <div class="navbar-end gap-6 " >
+                <div class="sm:hidden"><i class="sm:hidden fa-solid fa-magnifying-glass"></i></div>
+                <a class="btn text-white">Get Ticket</a>
             </div>
           </div>
     </header>
